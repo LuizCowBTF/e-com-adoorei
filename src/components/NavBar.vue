@@ -28,11 +28,21 @@
             <li class="nav-item">
               <router-link to="/products" class="nav-link" style="color:#FFFFFF;">Produtos</router-link>
             </li>
+            <li>
+              
+            </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <input class="form-control me-2" id="mySearch" type="search" placeholder="Buscar" aria-label="Buscar" @click="searchFunction">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
+          <ul>
+            <li>
+              <router-link to="/carrinho" class="nav-link" style="color:#FFFFFF;">
+                <img src="../assets/imgs/carrinho.png">
+              </router-link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -42,6 +52,24 @@
 <script>
 export default {
   name: "NavBar",
+  methods: {
+    searchFunction() {
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+          } else {
+          li[i].style.display = "none";
+          }
+      }
+    }
+  }
 };
 </script>
 
