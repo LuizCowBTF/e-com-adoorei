@@ -3,7 +3,7 @@
         <h3>Desenvolvido por</h3>
         <img src="../assets/imgs/logoInnovvatio.png" alt="" style="inline-size: 30%;">
         <h1>Innovvatio</h1>
-        <p>C.N.P.J.: 40.148.759/0001-05</p>
+        <p>C.N.P.J.: 40.148.756/0001-05</p>
     </div>    
 </template>
 

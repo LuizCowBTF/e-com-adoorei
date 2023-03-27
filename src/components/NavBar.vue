@@ -23,7 +23,9 @@
                 <li><router-link to="/" class="dropdown-item" style="color:#2c3e50;font-weight: bold;">Jóias</router-link></li>
                 <li><router-link to="/" class="dropdown-item" style="color:#2c3e50;font-weight: bold;">Roupas masculinas</router-link></li>
                 <li><router-link to="/" class="dropdown-item" style="color:#2c3e50;font-weight: bold;">Roupas femininas</router-link></li>
-              </ul>
+<!--            <li><hr class="dropdown-divider"></li>
+                <li><router-link to="/category" class="dropdown-item" style="color:#2c3e50;font-weight: bold;">Adicionar categoria</router-link></li>
+-->           </ul>
             </li>
             <li class="nav-item">
               <router-link to="/products" class="nav-link" style="color:#FFFFFF;">Produtos</router-link>
