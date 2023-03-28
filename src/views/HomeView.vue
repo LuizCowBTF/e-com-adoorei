@@ -1,6 +1,10 @@
 <template>
-  <div class="home">
-    <h1>PÁGINA PRINCIPAL</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mt-5 mb-3">
+        <h1>PÁGINA PRINCIPAL</h1>
+      </div>
+    </div>
   </div>
 </template>
 
